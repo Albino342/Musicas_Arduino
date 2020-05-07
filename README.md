@@ -1,4 +1,4 @@
-## Hino de Portugal - Arduino
+## Músicas - Arduino
 
 Este repositório têm como função principal partilhar códigos de músicas para arduinos. 
 
