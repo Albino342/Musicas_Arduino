@@ -1,10 +1,7 @@
-Hino de Portugal - Arduino
+## Hino de Portugal - Arduino
 
+Este repositório têm como função principal partilhar códigos de músicas para arduinos. 
 
-Este projeto foi realizado com o intuito de tocar o Hino de Portugal num buzzer.
+Estes códigos devem ser possíveis de realizar apenas com um arduino, um buzzer e obviamente jumpers.
 
-Apenas são necessários jumpers, um arduino e um buzzer.
-
-Qualquer tipo de melhoria no código é bem vinda.
-
-Realizado por Tiago Alves, 07/05/2020.
+Todas as melhorias nos códigos serão bem vindas!
