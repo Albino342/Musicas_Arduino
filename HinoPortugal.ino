@@ -1,3 +1,4 @@
+//Defenir nomes das notas para a freqência a que estas pertencem
 
 #define NOTE_B0  31
 #define NOTE_C1  33
@@ -90,9 +91,10 @@
 #define NOTE_DS8 4978
 #define REST      0
 
-int buzzer = 49;
-int tempo = 120;
+int buzzer = 11; //Define porta do buzzer
+int tempo = 120; //Tempo da música em BPM
 
+//Música:
 int melodia[]={
 
   NOTE_E4, 2, NOTE_G4, 2,
@@ -139,7 +141,7 @@ int melodia[]={
 
 int totalNotas=sizeof(melodia)/sizeof(melodia[0])/2; 
  
-// isso calcula a duração da nota em ms (60s/tempo)*4semibreves
+// Calcula a duração da nota em ms (60s/tempo)*4semibreves
 int semibreve = (60000 * 4) / tempo; //duração de uma nota semibreve (1) em milissegundos
  
 int divisor = 0, duracao = 0;
